@@ -1,0 +1,322 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+.whatsappbtn{
+    border: 1px solid #27AE60;
+    padding: 10px 18px;
+    color:#27AE60;
+    font-size: 16px;
+}
+.whatsappbtn i{
+    color: #27AE60;
+}
+.whatsappbtn:hover{
+    background-color: #27AE60;
+    color: #FFFFFF;
+    border: 1px solid #27AE60;
+}
+.whatsappbtn:hover i{
+    color: #FFFFFF;
+}
+
+.call{
+    color: white;
+    padding: 10px 18px;
+    background: linear-gradient(to right, #0ACEFE,#2699FB);
+}
+
+.bannerContent h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.bannerContent p{
+    font-size: 22px;
+}
+
+.bannerContent h1 span{
+    color: #2699FB;
+    background: url("../images/border.png") no-repeat bottom;
+}
+
+.bannerContent ul li, .tabItemsContent ul li{
+    list-style: none;
+}
+
+.bannerContent ul li i, .tabItemsContent ul li i{
+    color: #2699FB;
+}
+
+.bannerContentBtn button{
+    width: 50%;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+.bannerContentBtn button:first-child{
+    color: white;
+    background: linear-gradient(to right, #0ACEFE,#2699FB);
+}
+
+.bannerContentBtn button:first-child:hover{
+    color: black;
+}
+
+.bannerContentBtn button:first-child:active{
+    background: white;
+    color: #0A2134;
+}
+
+.bannerContentBtn button:nth-child(2):hover{
+    color: white;
+    background-color: black;
+}
+
+.bannerForm{
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.bannerForm h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bannerForm button{
+    width: 100%;
+    padding: 10px 0px;
+    background: linear-gradient(to right, #0ACEFE,#2699FB);
+    border: none;
+    color: white;
+}
+
+.bannerForm button:hover{
+    color: black;
+}
+
+.bannerForm button:active{
+    background: white;
+    color: black;
+}
+
+.counterSection h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #2699FB;
+}
+
+.highlights-section, .career-section, .market-section, .student-section{
+    background-color: #F7FAFF;
+}
+
+.highlights-section h2, .certificat-section h2, .market-section h2, .company-section h2{
+    color: #0A2134;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.highlights-section p, .career-section p, .certificat-section p, .market-section p, .student-section p, .curriculum-section p, .faq-section p{
+    font-size: 18px;
+}
+
+.highlightsItems h4, .certificateItems h4, .marketItems h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.highlightsItems p, .certificateItems p, .marketItems p, .faq-items{
+    font-size: 15px;
+}
+
+.highlights-section button, .certificat-section button, .curriculum button, .market-section button, .faq-btn button{
+    padding: 16px 48px;
+    background: linear-gradient(to right, #0ACEFE,#2699FB);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.highlights-section button:hover, .certificat-section button:hover, .curriculum button:hover, .market-section button:hover, .faq-btn button:hover{
+    color: black;
+}
+
+.highlights-section button:active, .certificat-section button:active, .curriculum button:active, .market-section button:active, .faq-btn button:active{
+    color: #0A2134;
+    background: white;
+}
+
+.tabItemsContent ul{
+    list-style: none;  
+}
+
+.tabMySystem .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #F2F4F7;
+    color: #0A2134;
+    border-radius: 0px;
+    border-bottom: 2px solid #2699FB;
+}
+
+.careerItems h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.careerItems p{
+    font-size: 13px;
+}
+
+.certificate-image {
+  position: relative;
+  display: inline-block;
+}
+
+.certificate-image::before,
+.certificate-image::after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+  z-index: 0;
+  opacity: 0.8;
+}
+
+.certificate-image::before {
+  top: -10px;
+  left: -25px;
+  background-image: url("../images/dots.png");
+}
+
+.certificate-image::after {
+  bottom: -30px;
+  right: -30px;
+  background-image: url("../images/ellipse.png");
+}
+
+.certificate-image img {
+  position: relative;
+  z-index: 1;
+  border: #FFFFFF 20px solid;
+}
+
+.footer-section{
+    background-color: #0A2540;
+}
+
+.footer-section p, .footer-section a{
+    color: white;
+}
+
+.footer-section hr{
+    border: 1px solid #FFFFFF;
+    width: 100% !important;
+}
+
+.ready-section{
+    background: linear-gradient(to right, #0ACEFE,#2699FB);
+}
+
+.ready-section h2, .student-section h2, .career-section h2, .curriculum-section h2, .faq-section h2{
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.ready-section p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ready-section button{
+    padding: 16px 48px;
+    background-color: #FFFFFF;
+    border: none;
+    color: #0A2134;
+    font-size: 20px;
+    font-weight: 700;
+    gap: 8px;
+}
+
+.ready-section button:hover{
+    background-color: #0A2134;
+    color: #FFFFFF;
+}
+
+.ready-section {
+  position: relative; 
+  overflow: hidden; 
+}
+
+.side-img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  opacity: 0.9;
+}
+
+.left-img {
+  left: -100px;
+}
+
+.right-img {
+  right: 0;
+}
+
+.studentItems h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0A2134;
+}
+
+.studentItems p{
+    font-size: 15px;
+    color: #0A2134;
+}
+
+.studentItems2{
+    font-size: 18px;
+    color: #0A2134;
+}
+
+.accordion-button{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0A2134;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #2699FB; 
+}
+
+.faq-items{
+    font-size: 16px;
+}
+
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-button:not(.collapsed) i::before {
+  content: "\f068"; 
+}
+
+.highlightsItems, .certificateItems, .marketItems, .careerItems{
+    transition: all 0.3s ease;
+}
+
+.highlightsItems:hover, .certificateItems:hover, .marketItems:hover, .careerItems:hover{
+    transform: scale(1.05);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); 
+}
+
+.carousel-item .row {
+  padding: 2rem 0; 
+}
